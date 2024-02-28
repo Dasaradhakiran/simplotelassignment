@@ -1,0 +1,165 @@
+body{
+    box-sizing: border-box;
+}
+
+
+.nav-elem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff4d4d;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav-elem-text {
+    font-family: "Georgia";
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.nav-elem-icon {
+    width: 25px;
+}
+
+.page-cont {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    background-image: linear-gradient(to right, #effca9, #faacf3);
+    padding-left: 50px;
+}
+.page-image {
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+}
+.page-main-head {
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.page-main-text {
+    font-family: sans-serif;
+}
+.page-button {
+    background-color: #ff4d4d;
+    font-size: 13px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+    color: #ffffff;
+}
+
+.page-2-cont {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom right, #effca9, #faacf3);
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 40px;
+    height: 100vh;
+}
+.page-2-images-cont {
+    display: inline-grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    margin-right: 50px;
+}
+
+.page-2-img1 { 
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.page-2-img2 {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.page-2-img3 {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.page-2-text-cont {
+    background-color: #ff4d4d;
+    padding: 10px;
+    width: 30vw;
+}
+.page-2-text-head {
+    font-family: sans-serif;
+    font-size: 45px;
+    letter-spacing: 4px;
+    margin: 0px;
+}
+.page-2-text-btn-cont {
+    display: flex;
+    align-items: center;
+}
+.page-2-text-icon {
+    width: 25px;
+    margin-left: 8px;
+}
+
+@media  screen and (min-width: 768px) {
+    .page-cont {
+        height: 45vh;
+    }
+    .page-2-cont {
+        height: 45vh;
+    }
+    .nav-elem {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .nav-elem-text {
+        font-size: 33px;
+    }
+    .nav-elem-icon {
+        width: 45px;
+    }
+    .nav-elem {
+        width: 98.4%;
+    }
+    .page-main-head {
+        font-size: 50px;
+    }
+    .page-main-text {
+        font-size: 35px;
+    }
+    .page-button {
+        font-size: 35px;
+    }
+
+    .page-2-images-cont {
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 400px 400px;
+        grid-column-gap: 40px;
+        grid-row-gap: 20px;
+        margin-right: 100px;
+    }
+    .page-2-text-head {
+        font-size: 60px;
+    }
+    .page-2-text {
+        font-size: 35px;
+    }
+    .page-2-text-icon {
+        width: 35px;
+    }
+    .page-2-text-cont {
+        width: 40vw;
+        padding: 20px;
+    }
+}
