@@ -110,15 +110,15 @@ body{
 
 @media  screen and (min-width: 768px) {
     .page-cont {
-        height: 45vh;
+        height: 65vh;
     }
     .page-2-cont {
-        height: 45vh;
+        height: 65vh;
     }
     .nav-elem {
         padding-left: 20px;
         padding-right: 20px;
-        width: 96%;
+        width: 96.9%;
     }
 }
 
